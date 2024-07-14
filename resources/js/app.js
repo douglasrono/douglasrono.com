@@ -4,7 +4,7 @@ import { createApp } from 'vue';
 
 const app = createApp({});
 
-import FooterComponent from './components/FooterComponent.vue';
-app.component('footer-component', FooterComponent);
+import MainContent from './components/MainContent.vue';
+app.component('maincontent', MainContent);
 
 app.mount('#app');
