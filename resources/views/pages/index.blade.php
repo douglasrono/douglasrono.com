@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
     <section id="hero" class="d-flex align-items-center">
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
@@ -17,7 +16,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <main id="main">
@@ -60,7 +58,7 @@
                     </div>
                     <div class="row content">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-                            <p>Hi, <br> I'm Douglas Rono, a software developer with a passion for building high-quality web
+                            <p>Hi,I'm Douglas Rono, a software developer with a passion for building high-quality web
                                 applications using Laravel, Node, Express, and Vue.</p>
                             <p>I have 5 years of experience in the industry and have worked on a variety of projects,
                                 ranging
@@ -150,7 +148,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                            <div class="card" style='background-image: url("assets/img/pic10.avif");'
+                            <div class="card" style='background-image:  url("assets/img/hero-img.png");'
                                 data-aos="fade-up" data-aos-delay="200">
                                 <div class="card-body">
                                     <h5 class="card-title"><a href="">CMS Development</a></h5>
