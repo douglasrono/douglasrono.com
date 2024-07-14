@@ -40,7 +40,7 @@
 
 <body>
     <div id="app">
-        <header-component></header-component>
+       
         <main class="py-4">
             @yield('content')
         </main>
