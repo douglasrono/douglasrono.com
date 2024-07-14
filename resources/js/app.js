@@ -1,12 +1,25 @@
-import './bootstrap';
-import { createApp } from 'vue';
+import './bootstrap'
+import { createApp } from 'vue'
 
+// Vuetify
+import '@mdi/font/css/materialdesignicons.css'
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
-const app = createApp({});
+const vuetify = createVuetify({
+  components,
+  directives,
+})
 
-import MainSection from './components/MainSection.vue';
-import FooterSection from './components/FooterSection.vue';
-app.component('main-section', MainSection);
-app.component('footer-section', FooterSection);
+const app = createApp({})
 
-app.mount('#app');
+app.use(vuetify)
+
+import MainSection from './components/MainSection.vue'
+import FooterSection from './components/FooterSection.vue'
+app.component('main-section', MainSection)
+app.component('footer-section', FooterSection)
+
+app.mount('#app')
