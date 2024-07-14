@@ -686,6 +686,5 @@
             </div>
         </section><!-- End Contact Section -->
     </main>
-
     <footer-component />
 @endsection
