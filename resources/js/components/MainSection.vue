@@ -310,7 +310,7 @@
           },
           {
             filter: "filter-app",
-            image: "assets/img/portfolio/front3.jpg",
+            image: "assets/img/portfolio/api2.jpg",
             alt: "Frontend Project 3",
             category: "Frontend",
             title: "Frontend 3"

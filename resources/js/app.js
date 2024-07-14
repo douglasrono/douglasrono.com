@@ -4,7 +4,9 @@ import { createApp } from 'vue';
 
 const app = createApp({});
 
-import MainContent from './components/MainContent.vue';
-app.component('maincontent', MainContent);
+import MainSection from './components/MainSection.vue';
+import FooterSection from './components/FooterSection.vue';
+app.component('main-section', MainSection);
+app.component('footer-section', FooterSection);
 
 app.mount('#app');

@@ -34,13 +34,11 @@
       ]
     }
     </script>
-
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 
 <body>
     <div id="app">
-       
         <main class="py-4">
             @yield('content')
         </main>
@@ -49,7 +47,6 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
         <i class="bi bi-arrow-up-short"></i>
     </a>
-    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
