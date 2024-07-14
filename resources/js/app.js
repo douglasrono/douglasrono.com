@@ -4,11 +4,9 @@ import { createApp } from 'vue';
 
 const app = createApp({});
 
-import HeaderComponent from './components/HeaderComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
-app.component('header-component', HeaderComponent);
-app.component('footer-component', FooterComponent);
-
-
+import MainSection from './components/MainSection.vue';
+import FooterSection from './components/FooterSection.vue';
+app.component('main-section', MainSection);
+app.component('footer-section', FooterSection);
 
 app.mount('#app');
