@@ -50,13 +50,12 @@
     <div id="app">
         <header-component></header-component>
         <main class="py-4">
-
             @yield('content')
         </main>
     </div>
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
     </a>
 
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
